@@ -1,12 +1,19 @@
-Knee Osteoarthritis Diagnosis using Deep Learning
+# Knee Osteoarthritis Diagnosis using Deep Learning
+
+## Project Overview
 This repository contains code for automated diagnosis and prediction of knee osteoarthritis using convolutional neural networks (CNNs) on knee MRI and X-ray images.
 
-Project Overview
 Deep learning-based system to detect and classify osteoarthritis severity and predict progression for early diagnosis and treatment planning.
 
-Setup
-Install required packages: pip install -r requirements.txt
+## Features
+- Automated detection and classification of knee osteoarthritis severity (Kellgren-Lawrence grades 0-4)
+- Support for DICOM, JPEG, and PNG medical imaging formats
+- Uses ResNet50 CNN architecture with transfer learning
+- Data preprocessing pipeline for medical images including resizing and normalization
+- Training, evaluation, and model saving workflows
+- Evaluation based on classification reports and confusion matrices
 
-Usage
-Run training with: python src/training.py
-Run evaluation with: python src/evaluation.py
+## Setup
+
+1. Clone this repository:
+
