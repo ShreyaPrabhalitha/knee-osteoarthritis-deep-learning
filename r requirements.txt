@@ -1,0 +1,12 @@
+
+2. Install required Python packages:
+
+3. Prepare your dataset:
+- Place raw knee image files in `data/raw/`
+- Place test image files in `data/test/`
+- Ensure images are in DICOM, JPG, or PNG format
+
+## Usage
+
+### Training the Model
+Run the training script:
